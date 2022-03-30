@@ -469,7 +469,7 @@ static void Display_DemoDescription(void)
 	BSP_LCD_SetTextColor(LCD_COLOR_DARKBLUE);
 
 	/* Display LCD messages */
-	BSP_LCD_DisplayStringAt(0, 10, (uint8_t *)"HOP", CENTER_MODE);
+	BSP_LCD_DisplayStringAt(0, 10, (uint8_t *)"HOP-ONYX", CENTER_MODE);
 	BSP_LCD_DisplayStringAt(0, 35, (uint8_t *)"Versao A3", CENTER_MODE);
 
 	/* Draw Bitmap */
